@@ -96,8 +96,8 @@ namespace Blevins_CourseProject_part2
 
         public override string ToString()
         {
-            return "firstName=" + firstName + ", lastName=" + lastName + ", ssn=" 
-                + ssn + ", hireDate=" + hireDate.ToShortDateString();
+            return firstName + " " + lastName +  ", SSN: "
+                + ssn + ", Hire Date: " + hireDate.ToShortDateString();
         }
 
         public double CalculatePay()

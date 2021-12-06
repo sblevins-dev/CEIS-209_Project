@@ -8,3 +8,14 @@ C:\Users\nechi\OneDrive\Desktop\DeVry\CEIS-209\Week5\Blevins_CourseProject_part2
 C:\Users\nechi\OneDrive\Desktop\DeVry\CEIS-209\Week5\Blevins_CourseProject_part2\Blevins_CourseProject_part2\obj\Debug\Blevins_CourseProject_part2.csproj.CoreCompileInputs.cache
 C:\Users\nechi\OneDrive\Desktop\DeVry\CEIS-209\Week5\Blevins_CourseProject_part2\Blevins_CourseProject_part2\obj\Debug\Blevins_CourseProject_part2.exe
 C:\Users\nechi\OneDrive\Desktop\DeVry\CEIS-209\Week5\Blevins_CourseProject_part2\Blevins_CourseProject_part2\obj\Debug\Blevins_CourseProject_part2.pdb
+C:\Users\nechi\Projects\Repositories\CEIS209\Blevins_CourseProject_part2\bin\Debug\Blevins_CourseProject_part2.exe.config
+C:\Users\nechi\Projects\Repositories\CEIS209\Blevins_CourseProject_part2\bin\Debug\Blevins_CourseProject_part2.exe
+C:\Users\nechi\Projects\Repositories\CEIS209\Blevins_CourseProject_part2\bin\Debug\Blevins_CourseProject_part2.pdb
+C:\Users\nechi\Projects\Repositories\CEIS209\Blevins_CourseProject_part2\obj\Debug\Blevins_CourseProject_part2.csproj.AssemblyReference.cache
+C:\Users\nechi\Projects\Repositories\CEIS209\Blevins_CourseProject_part2\obj\Debug\Blevins_CourseProject_part2.MainForm.resources
+C:\Users\nechi\Projects\Repositories\CEIS209\Blevins_CourseProject_part2\obj\Debug\Blevins_CourseProject_part2.InputForm.resources
+C:\Users\nechi\Projects\Repositories\CEIS209\Blevins_CourseProject_part2\obj\Debug\Blevins_CourseProject_part2.Properties.Resources.resources
+C:\Users\nechi\Projects\Repositories\CEIS209\Blevins_CourseProject_part2\obj\Debug\Blevins_CourseProject_part2.csproj.GenerateResource.cache
+C:\Users\nechi\Projects\Repositories\CEIS209\Blevins_CourseProject_part2\obj\Debug\Blevins_CourseProject_part2.csproj.CoreCompileInputs.cache
+C:\Users\nechi\Projects\Repositories\CEIS209\Blevins_CourseProject_part2\obj\Debug\Blevins_CourseProject_part2.exe
+C:\Users\nechi\Projects\Repositories\CEIS209\Blevins_CourseProject_part2\obj\Debug\Blevins_CourseProject_part2.pdb
