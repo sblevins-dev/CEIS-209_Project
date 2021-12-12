@@ -27,5 +27,32 @@ namespace Blevins_CourseProject_part2
         {
             this.DialogResult = DialogResult.Cancel;
         }
+
+        private void hourlyRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            if (hourlyRadioButton.Checked)
+            {
+                hourlyRateLabel.Visible = true;
+                hourlyRateTextBox.Visible = true;
+                hoursWorkedLabel.Visible = true;
+                hoursWorkedTextBox.Visible = true;
+                salaryLabel.Visible = false;
+                salaryTextBox.Visible = false;
+            }
+        }
+
+        private void salaryRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            if (salaryRadioButton.Checked)
+            {
+                hourlyRateLabel.Visible = false;
+                hourlyRateTextBox.Visible = false;
+                hoursWorkedLabel.Visible =  false;
+                hoursWorkedTextBox.Visible = false;
+                salaryLabel.Visible = true;
+                salaryTextBox.Visible = true;
+            }
+        }
+
     }
 }

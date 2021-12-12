@@ -94,11 +94,14 @@ namespace Blevins_CourseProject_part2
             this.EmployeesListBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.EmployeesListBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.EmployeesListBox.FormattingEnabled = true;
+            this.EmployeesListBox.HorizontalScrollbar = true;
             this.EmployeesListBox.ItemHeight = 29;
             this.EmployeesListBox.Location = new System.Drawing.Point(24, 124);
             this.EmployeesListBox.Name = "EmployeesListBox";
             this.EmployeesListBox.Size = new System.Drawing.Size(813, 323);
             this.EmployeesListBox.TabIndex = 4;
+            this.EmployeesListBox.TabStop = false;
+            this.EmployeesListBox.SelectedIndexChanged += new System.EventHandler(this.EmployeesListBox_SelectedIndexChanged);
             // 
             // MainForm
             // 
@@ -116,7 +119,6 @@ namespace Blevins_CourseProject_part2
             this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "MainForm";
             this.Text = "Payroll System";
-            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
 
         }

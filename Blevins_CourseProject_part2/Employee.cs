@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blevins_CourseProject_part2
 {
+    [Serializable]
     class Employee
     {
 
@@ -14,6 +15,7 @@ namespace Blevins_CourseProject_part2
         private string lastName;
         private string ssn;
         private DateTime hireDate;
+        private Benefits benefits;
 
         // constructors
         public Employee()
@@ -22,17 +24,34 @@ namespace Blevins_CourseProject_part2
             lastName = "unknown";
             ssn = "unknown";
             hireDate = new DateTime(1900, 1, 1);
+            benefits = new Benefits();
         }
 
-        public Employee(string firstName, string lastName, string ssn, DateTime hireDate)
+        public Employee(string firstName, string lastName, 
+            string ssn, DateTime hireDate, Benefits benefits)
         {
             this.firstName = firstName;
             this.lastName = lastName;
             this.ssn = ssn;
             this.hireDate = hireDate;
+            this.benefits = benefits;
         }
 
         // Behaviors
+        public override string ToString()
+        {
+            return firstName + " " + lastName + ", SSN: "
+                + ssn 
+                + ", Hire Date: " + hireDate.ToShortDateString()
+                + ", Benefits: [" + benefits.ToString() + "]";
+        }
+
+        public virtual double CalculatePay()
+        {
+            return 0;
+        }
+
+        // Properties
         public string FirstName 
         {
             get
@@ -94,15 +113,6 @@ namespace Blevins_CourseProject_part2
             }
         }
 
-        public override string ToString()
-        {
-            return firstName + " " + lastName +  ", SSN: "
-                + ssn + ", Hire Date: " + hireDate.ToShortDateString();
-        }
-
-        public double CalculatePay()
-        {
-            return 0;
-        }
+        public Benefits Benefits { get => benefits; set => benefits = value; }
     }
 }
